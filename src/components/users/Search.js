@@ -3,7 +3,7 @@ import GithubContext from '../../context/github/githubContext'
 import AlertContext from '../../context/alert/alertContext'
 
 
-const Search = ({ }) => {
+const Search = () => {
     const githubContext = useContext(GithubContext)
     const alertContext = useContext(AlertContext)
 

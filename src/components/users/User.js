@@ -4,7 +4,6 @@ import Repos from "../repos/Repos"
 
 import { Link } from "react-router-dom"
 import GithubContext from '../../context/github/githubContext'
-import githubContext from '../../context/github/githubContext'
 
 
 const User = ({ match }) => {
@@ -49,7 +48,7 @@ const User = ({ match }) => {
 
         <div className="card grid-2">
             <div className="all-center">
-                <img src={avatar_url} className="round-img" style={{ width: "150px" }} />
+                <img src={avatar_url} className="round-img" style={{ width: "150px" }} alt={`${login}-avatar`} />
                 <h1>{name}</h1>
                 <p>Location: {location}</p>
             </div>

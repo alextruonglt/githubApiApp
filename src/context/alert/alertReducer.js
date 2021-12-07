@@ -1,8 +1,7 @@
 import { SET_ALERT, REMOVE_ALERT } from "../types";
 
-export default (state, action) => {
+const alertReducer = (_, action) => {
     switch (action.type) {
-
         case SET_ALERT:
             return action.payload;
         case REMOVE_ALERT:
@@ -10,4 +9,6 @@ export default (state, action) => {
         default:
             return SVGPatternElement;
     }
-}
+};
+
+export default alertReducer;

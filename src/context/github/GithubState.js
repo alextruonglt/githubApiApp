@@ -11,8 +11,7 @@ import {
     GET_REPOS
 } from "../types";
 
-// let gitubClientId;
-// let githubClientSecret;
+
 
 let gitubClientId = process.env.REACT_APP_GITHUB_CLIENT_ID;
 let githubClientSecret = process.env.REACT_APP_GITHUB_CLIENT_SECRET;
