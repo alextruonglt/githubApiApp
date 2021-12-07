@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from "prop-types"
-import prettyFormat from 'pretty-format'
+
 
 export const RepoItem = ({ repo }) => {
     return (
